@@ -611,6 +611,7 @@ InternalDetectAppleProcessorType (
     case CPU_MODEL_ICELAKE_SP:     // 0x9F FIXME - unknown, for now
     case CPU_MODEL_TIGERLAKE_U:    // 0x8C FIXME - unknown, for now
     case CPU_MODEL_ALDERLAKE_S:    // 0x97 FIXME - unknown, for now
+    case CPU_MODEL_ALDERLAKE_P:    // 0x9A FIXME - unknown, for now
     case CPU_MODEL_RAPTORLAKE_S:   // 0xB7 FIXME - unknown, for now
     case CPU_MODEL_RAPTORLAKE_HX:  // 0xBF FIXME - unknown, for now
       if (AppleMajorType == AppleProcessorMajorM3) {
