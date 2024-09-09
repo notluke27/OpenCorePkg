@@ -1457,8 +1457,8 @@ InternalDetectIntelProcessorGeneration (
       case CPU_MODEL_TIGERLAKE_U:
         CpuGeneration = OcCpuGenerationTigerLake;
         break;
-      case CPU_MODEL_ALDERLAKE_U:
       case CPU_MODEL_ALDERLAKE_S:
+      case CPU_MODEL_ALDERLAKE_U:
         CpuGeneration = OcCpuGenerationAlderLake;
         break;
       default:
